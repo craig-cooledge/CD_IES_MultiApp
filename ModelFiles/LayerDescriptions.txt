@@ -1,0 +1,37 @@
+L01 (SS2) - ELV Mb/Upper Burro Flats Mb
+L02 (SS2) - Lower Burro Flats Mb
+L03 (SS2) - Lower Burro Flats Mb
+L04 (SS2) - Lower Burro Flats Mb
+L05 (SS2) - SPA Mb
+L06 (SS2) - Silvernale Mb
+L07 (SS2) - Silvernale Mb
+L08 (SS2) - Silvernale Mb
+L09 (SS1) - Upper Shale 2
+L10 (SS1) - Shale 2 Sandstone
+L11 (SS1) - Lower Shale 2
+L12 (SS1) - Upper Sage
+L13 (SS1) - Upper Bravo Bed
+L14 (SS1) - Middle Sage
+L15 (SS1) - Lower Bravo Bed
+L16 (SS1) - Lower Sage
+L17 (SS1) - Lower Sage
+L18 (SS1) - Lower Sage
+L19 (SS1) - Lower Sage
+L20 (SS1) - Lower Sage
+L21 (SS1) - Lower Sage
+L22 (SS1) - Woolsey Mb/Canyon Mb
+L23 (SS1) - Undifferentiated Sandstone 1
+L24 (SS1) - Undifferentiated Sandstone 1
+L25 (SS1) - Undifferentiated Sandstone 1
+L26 (SS1) - Undifferentiated Sandstone 1
+L27 (SS1) - Undifferentiated Sandstone 1
+L28 (SS1) - Undifferentiated Sandstone 1
+L29 (SS1) - Undifferentiated Sandstone 1
+L30 (SS1) - Undifferentiated Sandstone 1
+L31 (SS1) - Undifferentiated Sandstone 1
+L32 (SS1) - Shale 1/Upper Bowl
+L33 (SS1) - Undifferentiated Sandstone 1
+L34 (SS1) - Undifferentiated Sandstone 1
+L35 (SS1) - Undifferentiated Sandstone 1
+L36 (SS1) - Undifferentiated Sandstone 1
+L37 (SS1) - Undifferentiated Sandstone 1
