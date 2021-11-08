@@ -23,11 +23,12 @@ def app():
         zone_list.append(list_val.strip('\n'))
     
     hist_df = pd.read_csv(os.path.join('ModelResults', 'Kh_Histogram_Data.csv'))
-    
-    st.title('Kh Summary')
+
     zone_select = st.sidebar.selectbox('Select a K Zone:', zone_list)
     plot_zone = 'Zone {0:0=3d}'.format(int(zone_select[0:3]))
-
+    
+    st.title('Kh summary for K Zone: {0}'.format(zone_select))
+    
     fig = px.histogram(hist_df, 
                        x= hist_df[plot_zone],
                        color = 'Series',
@@ -53,7 +54,7 @@ def app():
         box_fig.add_trace(go.Box(y = y0, boxpoints = points, name = 'Calibration'))
         box_fig.add_trace(go.Box(y = y1, boxpoints = points, name = 'IES Base'))
         box_fig.add_trace(go.Box(y = y2, boxpoints = points, name = 'IES Average'))
-        box_fig.update_layout(title = 'K Value Distribution', yaxis = dict(showexponent = 'all', exponentformat = 'E', title = 'Kh (cm/s)'))
+        box_fig.update_layout(title = 'Nodal Kh Distribution', yaxis = dict(showexponent = 'all', exponentformat = 'E', title = 'Kh (cm/s)'))
         st.plotly_chart(box_fig, use_container_width = True)
     
     stat_df = box_df[['kh_cps_Calibration', 'kh_cps_Base', 'kh_cps_IES_Avg']]
@@ -61,6 +62,6 @@ def app():
     with row2_2:
         st.write('\n')
         st.write('\n')
-        st.write('Nodal K Value Statistics')
+        st.write('\n')
         st.write('\n')
         st.table(stat_df.describe().style.format('{:7,.3E}'))
