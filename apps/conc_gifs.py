@@ -28,11 +28,15 @@ def app():
     
     layer_select = st.sidebar.selectbox('Select a Layer:', layers_list)
     
-    curr_gif = os.path.join('ModelResults','Conc_GIFs','L{0:0=3d}_Plume.gif'.format(layer_select))
+    avg_gif = os.path.join('ModelResults','Conc_GIFs','L{0:0=3d}_AvgConc_Plume.gif'.format(layer_select))
+    stddev_gif = os.path.join('ModelResults','Conc_GIFs','L{0:0=3d}_StdDevConc_Plume.gif'.format(layer_select))
     
     row1_1, row1_2 = st.columns((3,3))
     with row1_1:
-        st.image(curr_gif)
+        st.image(avg_gif)
+        
+    with row1_2:
+        st.image(stddev_gif)
     
     
     
