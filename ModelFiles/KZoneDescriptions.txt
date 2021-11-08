@@ -1,0 +1,22 @@
+001 Sandstone
+002 Shale 1
+003 Happy Valley
+004 Upper Bowl
+005 Woolsey
+006 Lower Bravo Bed Outcrop
+007 Upper Bravo Bed Outcrop
+008 Lower Shale 2
+009 Upper Shale 2
+010 SPA
+011 ELV
+020 Burro Flats Middle
+021 West Bell Canyon
+022 North Burro Flats Core
+023 East Bell Canyon
+024 Skyline
+025 Coca Fault
+026 South Coca Fault
+027 South Burro Flats Core
+028 Delta Structure
+029 Tank
+030 Coca Damage
